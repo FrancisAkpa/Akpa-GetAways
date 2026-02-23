@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services - AKPA Getaways</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #333;
+      padding: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    /* Header Section */
+    .header {
+      padding: 60px 20px;
+      background: #374d48;
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    /* Services Section */
+    .services-container {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+      flex: 1;
+    }
+
+    .services-container h2 {
+      margin-bottom: 30px;
+    }
+
+    .services-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .service-box {
+      background-color: #f9f9f9;
+      border-radius: 12px;
+      overflow: hidden;
+      width: 280px;
+      text-align: left;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .service-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+    }
+
+    .service-box img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .service-content {
+      padding: 15px 20px 20px 20px;
+    }
+
+    .service-content h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.3em;
+    }
+
+    .service-content p {
+      font-size: 0.95em;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #333;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+      font-size: 0.9em;
+      border-top: 4px solid #555;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 28px;
+      }
+      .services-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+      .service-box {
+        width: 80%;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="file:///C:/Users/betia/OneDrive/Documents/Website/AKPA%20GETAWAYS%20TEST.html">Home</a>
+    <a href="file:///C:/Users/betia/OneDrive/Documents/Website/about.html">About</a>
+    <a href="file:///C:/Users/betia/OneDrive/Documents/Website/contact.html">Contact</a>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Our Services</h1>
+    <p>We provide premium services tailored to your needs, with clear pricing.</p>
+  </div>
+
+  <!-- Services Content -->
+  <div class="services-container">
+    <h2>Please choose from our recommended services:</h2>
+
+    <div class="services-grid">
+
+      <!-- Service 1 - GOLD -->
+      <a class="service-box" href="https://www.example.com/service1">
+        <img src="c:/Users/betia/Downloads/GOLD001.webp" alt="Service 1 - GOLD">
+        <div class="service-content">
+          <h3>Service 1 - $450 (GOLD)</h3>
+          <p>
+            Our premier accommodation service includes a spacious double or single room
+            with luxury amenities. Pricing is based on the number of rooms, occupancy (single/couple),
+            and holiday season rates, ensuring premium comfort and personalized attention.
+          </p>
+        </div>
+      </a>
+
+      <!-- Service 2 - SILVER -->
+      <a class="service-box" href="https://www.example.com/service2">
+        <img src="c:/Users/betia/Downloads/SILVER01.jpg" alt="Service 2 - SILVER">
+        <div class="service-content">
+          <h3>Service 2 - $350 (SILVER)</h3>
+          <p>
+            This service provides a mid-tier accommodation with cozy rooms suitable
+            for singles or couples. The price accounts for the number of rooms booked,
+            holiday season adjustments, and ensures quality service and comfort for all guests.
+          </p>
+        </div>
+      </a>
+
+      <!-- Service 3 - BRONZE -->
+      <a class="service-box" href="https://www.example.com/service3">
+        <img src="c:/Users/betia/Downloads/BRONZE01.jpg" alt="Service 3 - BRONZE">
+        <div class="service-content">
+          <h3>Service 3 - $225 (BRONZE)</h3>
+          <p>
+            Our budget-friendly option includes standard rooms with essential amenities.
+            Pricing is calculated according to room occupancy, couple/single use,
+            and holiday rates, offering excellent value without compromising comfort.
+          </p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    &copy; 2026 <strong>Akpa Getaways</strong>. All rights reserved. <br>
+    Designed with ❤️ for luxury travel experiences.
+  </div>
+
+</body>
+</html>
